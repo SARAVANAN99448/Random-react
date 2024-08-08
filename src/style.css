@@ -1,0 +1,47 @@
+body{
+    background-color: #08105B;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+}
+.inner-container{
+    background-color: white;
+    padding: 10px;
+    width: 25%;
+    text-align: center;
+}
+.tittle{
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+
+
+}
+.btn{
+    background-color: chocolate;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    border-color:transparent ;
+    color: white;    
+
+}
+/* mobile */
+@media screen and (max-width:600px){
+    .inner-container{
+        width: 50%;
+
+    }
+    
+}
+/* Tab */
+@media screen and (max-width:800px){
+    .inner-container{
+        width: 50%;
+
+    }
+    
+}
